@@ -87,8 +87,9 @@ nav .navbar-nav .nav-item .register-link {
 
 /* INDEX HEADER SECTION */
 .contact-container,
+.process-payment,
 .header-section {
-  padding: 40px 10px;
+  padding: 50px 10px;
   background: url("../img/background.jpg");
   background-size: cover;
   background-position: center;
@@ -128,7 +129,6 @@ nav .navbar-nav .nav-item .register-link {
 }
 
 .powerpay-form {
-  background-color: #ffffff;
   padding: 20px 40px 40px;
   border-radius: 6px;
 }
@@ -157,6 +157,10 @@ input::-webkit-outer-spin-button {
   margin: 0;
 }
 
+.powerpay-form .form-field input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .powerpay-form .form-field input,
 .powerpay-form .form-field select {
   width: 100%;
@@ -178,10 +182,6 @@ input::-webkit-outer-spin-button {
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
-}
-
-.powerpay-form .form-field input[type="number"] {
-  -moz-appearance: textfield;
 }
 
 .powerpay-form .radio-field {
@@ -344,24 +344,13 @@ input::-webkit-outer-spin-button {
 }
 
 /* PAYMENT PROCESS PAGE */
-.process-payment {
-  padding: 50px 10px;
-  background: url("../img/background.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .payment-details {
-  background-color: #ffffff;
   padding: 40px;
   border-radius: 4px;
 }
 
 .payment-details .payment-header {
   color: #f7931e;
-  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -384,16 +373,12 @@ input::-webkit-outer-spin-button {
   border: none;
   border-radius: 4px;
 }
-/* END */
+/* END PROCESS PAGE */
 
 
 /* FAQ PAGE STYLES */
 .faq-container{
   padding: 50px 10px;
-}
-
-.faq-header{
-  margin-bottom: 20px;
 }
 
 .accordion {
@@ -409,7 +394,7 @@ input::-webkit-outer-spin-button {
 }
 
 .accordion-header {
-  padding: 1.5em 1.5em;
+  padding: 1.3em 1.5em;
   background: #f7931e;
   color: white;
   cursor: pointer;
@@ -476,13 +461,10 @@ input::-webkit-outer-spin-button {
   background: #f1f1f1;
   color: #353535;
 }
+/* END FAQ PAGE */
 
 
 /* CONTACT PAGE */
-.contact-form .contact-field{
-  margin-bottom: 25px;
-}
-
 .contact-form .contact-field label{
   display: inline-block;
   margin-bottom: 6px;
@@ -506,16 +488,10 @@ input::-webkit-outer-spin-button {
   padding: 15px 30px;
 }
 
-.other-contact{
-  margin-top: 30px;
-}
-
 .other-contact .phone,
 .other-contact .email,
 .other-contact .location{
-  background-color: #ffffff;
   color: #F7931E;
-  text-align: center;
   padding: 20px 40px;
   border-radius: 4px;
 }
@@ -523,8 +499,6 @@ input::-webkit-outer-spin-button {
 .other-contact .phone span,
 .other-contact .email span,
 .other-contact .location span{
-  display: block;
-  margin-bottom: 20px;
   font-size: 34px;
 }
 
@@ -538,12 +512,12 @@ input::-webkit-outer-spin-button {
   font-size: 18px;
   line-height: 30px;
 }
+/* END CONTACT PAGE */
 
 /* FOOTER SECTION */
 .footer-section{
   background: #0c0c0c;
-  padding: 30px 0 10px 0;
-  margin-top: 50px;
+  padding: 40px 0 10px 0;
 }
 
 .footer-section .about img{
